@@ -1,0 +1,231 @@
+{
+  "questions": [
+    {
+      "id": "education",
+      "type": "single-choice",
+      "en": {
+        "question": "What is your highest level of education?",
+        "options": [
+          "High school or equivalent",
+          "Vocational training",
+          "Bachelor's degree",
+          "Master's degree or higher"
+        ]
+      },
+      "et": {
+        "question": "Milline on teie kõrgeim haridustase?",
+        "options": [
+          "Keskharidus või võrdväärne",
+          "Kutseharidus",
+          "Bakalaureusekraad",
+          "Magistrikraad või kõrgem"
+        ]
+      },
+      "ru": {
+        "question": "Какой у вас самый высокий уровень образования?",
+        "options": [
+          "Среднее образование или эквивалент",
+          "Профессиональное образование",
+          "Степень бакалавра",
+          "Степень магистра или выше"
+        ]
+      }
+    },
+    {
+      "id": "experience",
+      "type": "single-choice",
+      "en": {
+        "question": "How many years of work experience do you have?",
+        "options": [
+          "0-2 years",
+          "3-5 years",
+          "6-10 years",
+          "More than 10 years"
+        ]
+      },
+      "et": {
+        "question": "Kui palju teil on töökogemust?",
+        "options": [
+          "0-2 aastat",
+          "3-5 aastat",
+          "6-10 aastat",
+          "Rohkem kui 10 aastat"
+        ]
+      },
+      "ru": {
+        "question": "Сколько у вас лет рабочего стажа?",
+        "options": [
+          "0-2 года",
+          "3-5 лет",
+          "6-10 лет",
+          "Более 10 лет"
+        ]
+      }
+    },
+    {
+      "id": "current_field",
+      "type": "single-choice",
+      "en": {
+        "question": "Which field best describes your current or most recent job?",
+        "options": [
+          "Technology and IT",
+          "Business and Finance",
+          "Healthcare",
+          "Education",
+          "Creative and Design",
+          "Other"
+        ]
+      },
+      "et": {
+        "question": "Milline valdkond kirjeldab kõige paremini teie praegust või viimast töökohta?",
+        "options": [
+          "Tehnoloogia ja IT",
+          "Äri ja rahandus",
+          "Tervishoid",
+          "Haridus",
+          "Loovala ja disain",
+          "Muu"
+        ]
+      },
+      "ru": {
+        "question": "Какая сфера лучше всего описывает вашу текущую или последнюю работу?",
+        "options": [
+          "Технологии и ИТ",
+          "Бизнес и финансы",
+          "Здравоохранение",
+          "Образование",
+          "Творчество и дизайн",
+          "Другое"
+        ]
+      }
+    },
+    {
+      "id": "career_goal",
+      "type": "single-choice",
+      "en": {
+        "question": "What is your primary career goal?",
+        "options": [
+          "Change to a new field",
+          "Advance in current field",
+          "Improve work-life balance",
+          "Increase income",
+          "Start own business"
+        ]
+      },
+      "et": {
+        "question": "Mis on teie peamine karjäärieesmärk?",
+        "options": [
+          "Vahetan eriala",
+          "Arenen praeguses valdkonnas",
+          "Parandan töö ja eraelu tasakaalu",
+          "Suurendan sissetulekut",
+          "Alustan oma ettevõttega"
+        ]
+      },
+      "ru": {
+        "question": "Какова ваша основная карьерная цель?",
+        "options": [
+          "Сменить сферу деятельности",
+          "Продвинуться в текущей сфере",
+          "Улучшить баланс между работой и личной жизнью",
+          "Увеличить доход",
+          "Начать свой бизнес"
+        ]
+      }
+    },
+    {
+      "id": "comparison_pairs",
+      "type": "comparison",
+      "en": {
+        "question": "For each pair, choose the option that you prefer or identifies with you more:",
+        "pairs": [
+          {
+            "id": "problem_solving_vs_creativity",
+            "a": "Solving complex problems",
+            "b": "Expressing creativity"
+          },
+          {
+            "id": "stability_vs_change",
+            "a": "Stable and predictable work environment",
+            "b": "Dynamic and changing work environment"
+          },
+          {
+            "id": "teamwork_vs_independent",
+            "a": "Working closely with a team",
+            "b": "Working independently"
+          },
+          {
+            "id": "analytical_vs_practical",
+            "a": "Analyzing data and information",
+            "b": "Applying practical skills"
+          },
+          {
+            "id": "leading_vs_supporting",
+            "a": "Leading and making decisions",
+            "b": "Supporting and implementing decisions"
+          }
+        ]
+      },
+      "et": {
+        "question": "Iga paari puhul valige variant, mida eelistate või mis teid rohkem iseloomustab:",
+        "pairs": [
+          {
+            "id": "problem_solving_vs_creativity",
+            "a": "Keeruliste probleemide lahendamine",
+            "b": "Loovuse väljendamine"
+          },
+          {
+            "id": "stability_vs_change",
+            "a": "Stabiilne ja etteaimatav töökeskkond",
+            "b": "Dünaamiline ja muutuv töökeskkond"
+          },
+          {
+            "id": "teamwork_vs_independent",
+            "a": "Tihedalt meeskonnas töötamine",
+            "b": "Iseseisvalt töötamine"
+          },
+          {
+            "id": "analytical_vs_practical",
+            "a": "Andmete ja info analüüsimine",
+            "b": "Praktiliste oskuste rakendamine"
+          },
+          {
+            "id": "leading_vs_supporting",
+            "a": "Juhtimine ja otsuste tegemine",
+            "b": "Otsuste toetamine ja elluviimine"
+          }
+        ]
+      },
+      "ru": {
+        "question": "Для каждой пары выберите вариант, который вы предпочитаете или который больше вас характеризует:",
+        "pairs": [
+          {
+            "id": "problem_solving_vs_creativity",
+            "a": "Решение сложных проблем",
+            "b": "Выражение креативности"
+          },
+          {
+            "id": "stability_vs_change",
+            "a": "Стабильная и предсказуемая рабочая среда",
+            "b": "Динамичная и меняющаяся рабочая среда"
+          },
+          {
+            "id": "teamwork_vs_independent",
+            "a": "Тесная работа в команде",
+            "b": "Самостоятельная работа"
+          },
+          {
+            "id": "analytical_vs_practical",
+            "a": "Анализ данных и информации",
+            "b": "Применение практических навыков"
+          },
+          {
+            "id": "leading_vs_supporting",
+            "a": "Руководство и принятие решений",
+            "b": "Поддержка и реализация решений"
+          }
+        ]
+      }
+    }
+  ]
+}

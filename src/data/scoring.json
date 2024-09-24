@@ -1,0 +1,208 @@
+{
+  "careerPaths": [
+    {
+      "id": "data_analyst",
+      "en": "Data Analyst",
+      "et": "Andmeanalüütik",
+      "ru": "Аналитик данных",
+      "fields": [
+        {
+          "en": "Technology and IT",
+          "et": "Tehnoloogia ja IT",
+          "ru": "Технологии и ИТ"
+        },
+        {
+          "en": "Finance and Banking",
+          "et": "Finants ja pangandus",
+          "ru": "Финансы и банковское дело"
+        },
+        {
+          "en": "Healthcare",
+          "et": "Tervishoid",
+          "ru": "Здравоохранение"
+        },
+        {
+          "en": "Marketing and Advertising",
+          "et": "Turundus ja reklaam",
+          "ru": "Маркетинг и реклама"
+        },
+        {
+          "en": "Public Sector",
+          "et": "Avalik sektor",
+          "ru": "Государственный сектор"
+        }
+      ]
+    },
+    {
+      "id": "software_developer",
+      "en": "Software Developer",
+      "et": "Tarkvaraarendaja",
+      "ru": "Разработчик программного обеспечения",
+      "fields": [
+        {
+          "en": "Technology and IT",
+          "et": "Tehnoloogia ja IT",
+          "ru": "Технологии и ИТ"
+        },
+        {
+          "en": "Financial Technology",
+          "et": "Finantstehnoloogia",
+          "ru": "Финансовые технологии"
+        },
+        {
+          "en": "E-commerce",
+          "et": "E-kaubandus",
+          "ru": "Электронная коммерция"
+        },
+        {
+          "en": "Entertainment and Gaming Industry",
+          "et": "Meelelahutus ja mängutööstus",
+          "ru": "Индустрия развлечений и игр"
+        },
+        {
+          "en": "Research and Development",
+          "et": "Teadus ja arendus",
+          "ru": "Исследования и разработки"
+        }
+      ]
+    },
+    {
+      "id": "project_manager",
+      "en": "Project Manager",
+      "et": "Projektijuht",
+      "ru": "Менеджер проектов",
+      "fields": [
+        {
+          "en": "Construction and Real Estate",
+          "et": "Ehitus ja kinnisvara",
+          "ru": "Строительство и недвижимость"
+        },
+        {
+          "en": "IT and Technology",
+          "et": "IT ja tehnoloogia",
+          "ru": "ИТ и технологии"
+        },
+        {
+          "en": "Marketing and Advertising",
+          "et": "Turundus ja reklaam",
+          "ru": "Маркетинг и реклама"
+        },
+        {
+          "en": "Manufacturing and Industry",
+          "et": "Tootmine ja tööstus",
+          "ru": "Производство и промышленность"
+        },
+        {
+          "en": "Public Sector",
+          "et": "Avalik sektor",
+          "ru": "Государственный сектор"
+        }
+      ]
+    },
+    {
+      "id": "ux_ui_designer",
+      "en": "UX/UI Designer",
+      "et": "UX/UI disainer",
+      "ru": "UX/UI дизайнер",
+      "fields": [
+        {
+          "en": "Technology and IT",
+          "et": "Tehnoloogia ja IT",
+          "ru": "Технологии и ИТ"
+        },
+        {
+          "en": "E-commerce",
+          "et": "E-kaubandus",
+          "ru": "Электронная коммерция"
+        },
+        {
+          "en": "Media and Advertising",
+          "et": "Meedia ja reklaam",
+          "ru": "Медиа и реклама"
+        },
+        {
+          "en": "Education (e-learning platforms)",
+          "et": "Haridus (e-õppe platvormid)",
+          "ru": "Образование (платформы электронного обучения)"
+        },
+        {
+          "en": "Healthcare (medical applications)",
+          "et": "Tervishoid (meditsiinilised rakendused)",
+          "ru": "Здравоохранение (медицинские приложения)"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "education": {
+      "High school or equivalent": {
+        "data_analyst": 1, "software_developer": 1, "project_manager": 1, "ux_ui_designer": 1
+      },
+      "Vocational training": {
+        "data_analyst": 2, "software_developer": 2, "project_manager": 1, "ux_ui_designer": 2
+      },
+      "Bachelor's degree": {
+        "data_analyst": 3, "software_developer": 3, "project_manager": 2, "ux_ui_designer": 3
+      },
+      "Master's degree or higher": {
+        "data_analyst": 4, "software_developer": 3, "project_manager": 3, "ux_ui_designer": 3
+      }
+    },
+    "experience": {
+      "0-2 years": {
+        "data_analyst": 1, "software_developer": 1, "project_manager": 1, "ux_ui_designer": 1
+      },
+      "3-5 years": {
+        "data_analyst": 2, "software_developer": 2, "project_manager": 2, "ux_ui_designer": 2
+      },
+      "6-10 years": {
+        "data_analyst": 3, "software_developer": 3, "project_manager": 3, "ux_ui_designer": 3
+      },
+      "More than 10 years": {
+        "data_analyst": 4, "software_developer": 4, "project_manager": 4, "ux_ui_designer": 4
+      }
+    },
+    "current_field": {
+      "Technology and IT": {
+        "data_analyst": 5, "software_developer": 5, "project_manager": 3, "ux_ui_designer": 4
+      },
+      "Business and Finance": {
+        "data_analyst": 4, "software_developer": 2, "project_manager": 4, "ux_ui_designer": 2
+      },
+      "Healthcare": {
+        "data_analyst": 3, "software_developer": 2, "project_manager": 2, "ux_ui_designer": 2
+      },
+      "Education": {
+        "data_analyst": 2, "software_developer": 2, "project_manager": 3, "ux_ui_designer": 3
+      },
+      "Creative and Design": {
+        "data_analyst": 2, "software_developer": 3, "project_manager": 2, "ux_ui_designer": 5
+      },
+      "Other": {
+        "data_analyst": 2, "software_developer": 2, "project_manager": 2, "ux_ui_designer": 2
+      }
+    },
+    "comparison_pairs": {
+      "problem_solving_vs_creativity": {
+        "a": {"data_analyst": 4, "software_developer": 3, "project_manager": 2, "ux_ui_designer": 1},
+        "b": {"data_analyst": 1, "software_developer": 2, "project_manager": 2, "ux_ui_designer": 4}
+      },
+      "stability_vs_change": {
+        "a": {"data_analyst": 3, "software_developer": 2, "project_manager": 3, "ux_ui_designer": 2},
+        "b": {"data_analyst": 2, "software_developer": 3, "project_manager": 2, "ux_ui_designer": 3}
+      },
+      "teamwork_vs_independent": {
+        "a": {"data_analyst": 2, "software_developer": 3, "project_manager": 4, "ux_ui_designer": 3},
+        "b": {"data_analyst": 3, "software_developer": 2, "project_manager": 1, "ux_ui_designer": 2}
+      },
+      "analytical_vs_practical": {
+        "a": {"data_analyst": 4, "software_developer": 3, "project_manager": 3, "ux_ui_designer": 2},
+        "b": {"data_analyst": 1, "software_developer": 2, "project_manager": 2, "ux_ui_designer": 3}
+      },
+      "leading_vs_supporting": {
+        "a": {"data_analyst": 2, "software_developer": 2, "project_manager": 4, "ux_ui_designer": 2},
+        "b": {"data_analyst": 3, "software_developer": 3, "project_manager": 1, "ux_ui_designer": 3}
+      }
+    }
+  }
+}
